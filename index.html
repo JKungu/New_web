@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root line - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-video">
+        <video autoplay muted loop>
+            <source src="me.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Rootline</h1>
+            <h2>Our new site is coming soon</h2>
+        </header>
+        <div class="clock">
+            <div class="hand hour" id="hour"></div>
+            <div class="hand minute" id="minute"></div>
+            <div class="hand second" id="second"></div>
+        </div>
+        <section class="about">
+            <h3>About Us</h3>
+            <p>Information about Rootline.</p>
+        </section>
+        <section class="subscribe">
+            <h3>Subscribe</h3>
+            <form id="subscribeForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div id="dateTime"></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
